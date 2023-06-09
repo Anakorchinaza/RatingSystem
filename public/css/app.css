@@ -1,0 +1,129 @@
+/* public/css/app.css */
+
+/* Center the page content */
+.container {
+    margin-top: 50px;
+}
+
+
+
+/* Style the average rating card */
+.card-header {
+    background-color: #f8f9fa;
+    font-weight: bold;
+}
+
+.card-body {
+    text-align: center;
+}
+
+/* Style the ratings distribution card */
+.list-group-item {
+    font-size: 16px;
+    padding: 10px;
+}
+
+/* Style the top rated products table */
+table {
+    margin-top: 20px;
+}
+
+th {
+    background-color: #f8f9fa;
+    font-weight: bold;
+}
+
+td {
+    text-align: center;
+}
+/* public/css/app.css */
+
+/* Center the page content */
+.container {
+    margin-top: 50px;
+}
+
+/* Style the average rating card */
+.card {
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+}
+
+.card-header {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.card-body {
+    font-size: 24px;
+}
+
+/* Style the ratings distribution card */
+.list-group {
+    margin-top: 30px;
+}
+
+.list-group-item {
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    background-color: #f8f9fa;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.list-group-item:first-child {
+    margin-top: 10px;
+}
+
+.list-group-item:last-child {
+    margin-bottom: 0;
+}
+
+.list-group-item span {
+    font-weight: bold;
+}
+
+/* Style the top rated products table */
+.table {
+    margin-top: 30px;
+}
+
+.table th {
+    background-color: #f8f9fa;
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+}
+
+.table td {
+    padding: 10px;
+    text-align: center;
+}
+
+/* Style the pagination links */
+.pagination {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.pagination .page-link {
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-weight: bold;
+    color: #333;
+}
+
+.pagination .page-item.active .page-link {
+    background-color: #007bff;
+    border-color: #007bff;
+    color: #fff;
+}
+
+.pagination .page-item.disabled .page-link {
+    color: #888;
+}
